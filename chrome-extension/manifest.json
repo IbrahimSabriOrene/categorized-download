@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Categorized Download Bridge",
+  "version": "0.3.1",
+  "description": "Hands Chrome downloads to the Categorized Download desktop app.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAukbYwtOQDBk5mdd3O2bv+uStwVF+r3NtdtRFPSigf0q2Sd4wKsHRlaKxykF3xkwPrcIn89Tv2MrgkWTnUelmYEidxnhMhgaBl7L1nTaqInu4XPjh/kfpEd6JBxMhzWvHZdtxzf3QD0qTDWDafM9HKz9HSG5vR4YO5SoVKEbhymSqv9XB2INi4BW25Uknr3aVSENhycFnPHsR72c5lQUFXoS6o1VRCCw+kKVYh2fmVSqydtmZ6Wcpyi1i423ROR2KQ499Cc17/JJQ4oynrIdlptSO7iDyRVAjWaP7vhnZxrmp5HapkX1LiQLk9dLzuKdqz8ni/J1yv6wT3mN+v/duzQIDAQAB",
+  "permissions": ["downloads", "webNavigation"],
+  "host_permissions": ["http://127.0.0.1:17852/*"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Categorized Download is active"
+  }
+}

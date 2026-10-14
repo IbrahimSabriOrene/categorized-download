@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <UseWindowsForms>true</UseWindowsForms>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AssemblyName>CategorizedDownload</AssemblyName>
+        <ApplicationIcon>Assets\CategorizedDownload.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Resource Include="Assets\CategorizedDownload.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DevExpress.Wpf" Version="26.1.*"/>
+        <PackageReference Include="DevExpress.Wpf.ThemesLW" Version="26.1.*" />
+    </ItemGroup>
+
+</Project>
